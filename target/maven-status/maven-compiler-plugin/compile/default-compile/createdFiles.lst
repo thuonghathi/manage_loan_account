@@ -1,0 +1,9 @@
+pages\OnboardingPage.class
+supports\Log.class
+supports\DriverManager.class
+supports\Commonfunction.class
+pages\LoginPage.class
+supports\DesiredCapsManager.class
+pages\RegistrationPage.class
+supports\Commonfunction$1.class
+supports\JSWaiter.class

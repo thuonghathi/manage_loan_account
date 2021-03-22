@@ -1,0 +1,6 @@
+stepdefinitions\OnBoardingStep.class
+stepdefinitions\RegistrationStep.class
+configuration\TestRunner.class
+stepdefinitions\LoginSteps.class
+stepdefinitions\BaseSteps.class
+configuration\TestConfiguration.class

@@ -1,0 +1,167 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "I navigate to the Login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1876931900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the Login page",
+            "match": {
+              "location": "LoginSteps.openingLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2678708100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the Login page",
+            "match": {
+              "location": "LoginSteps.iOnTheLoginPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1425050100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestConfiguration.configTestEnvironment(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login with phone",
+        "description": "",
+        "id": "login-page;login-with-phone;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 156366200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestConfiguration.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1345863500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select the country is \"Argentina\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Argentina\"",
+                  "offset": 24
+                }
+              ],
+              "location": "RegistrationStep.iSelectTheCountryIs(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 303343300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I input the phone number is \"88344498\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"88344498\"",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginSteps.iInputThePhoneNumberIs(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 178259300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click login button",
+            "match": {
+              "location": "LoginSteps.i_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3328378000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter phone OTP",
+            "match": {
+              "location": "RegistrationStep.i_enter_otp()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15815436500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on the Onboarding page",
+            "match": {
+              "location": "OnBoardingStep.i_am_on_the_Onboarding_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@phone"
+          }
+        ]
+      }
+    ],
+    "name": "Login page",
+    "description": "",
+    "id": "login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/testcases/Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
